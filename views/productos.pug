@@ -1,0 +1,14 @@
+html
+	head
+		title!=nombre
+	body
+		p
+			h3 Si usted esta pensando en adquirir un fantastico #{nombre} no lo dude más, aquí siempre se ofrece la mejor calidad
+		p Por tan solo #{precio} #{moneda} podra obtener su flamante #{nombre} en #{plazoEntrega}
+		p Y, por favor, recuerde: #[h1 IMPORTANTE]
+		ul
+			each valor in datos
+				li #{valor}
+		p Cuando quiera volver a la pagina principal, haga click en  #[a(href='/') esta direccion]
+
+

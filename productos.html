@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" >
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" >
+	<title>Practica 3</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img  class="img-responsive" src="logo-parlamento.png" alt="Logo1"></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#datos">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="datos">
+				<ul class="nav navbar-bar ">
+					<a class="nav-link " href="http://127.0.0.1:8080/about">
+						Sobre la empresa
+					</a>
+			
+					<a class="nav-link " href="http://127.0.0.1:8080/productos" >
+						Productos
+					</a>
+				
+					<a class="nav-link" href="http://127.0.0.1:8080/" >
+						Inicio
+					</a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row mt-3">
+			<div class="col-4" height="200" width="200">
+				<figure class="figure" >
+					<a href="http://127.0.0.1:8080/productos?id=1" role="button">
+						<img src="Imagenes/kiwi.jpg" height="200" width="200" class="figure-img img-responsive producto" data-imagen="kiwi">
+					</a>
+					<figcaption class="figure-caption">Esto es un Kiwi</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-4" height="200" width="200">
+				<figure class="figure" >
+					<a href="http://127.0.0.1:8080/productos?id=2" role="button">
+						<img src="Imagenes/nu.jpeg" height="200" width="200" class="figure-img img-responsive producto" data-imagen="toro">
+					</a>
+					<figcaption class="figure-caption">Esto es un toro famélico</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-4" height="200" width="200">
+				<figure class="figure" >
+					<a href="http://127.0.0.1:8080/productos?id=3" role="button">
+						<img src="Imagenes/lemur.jpeg" height="200" width="200" class="figure-img img-responsive producto" data-imagen="kiwi">
+					</a>
+					<figcaption class="figure-caption">Esto es un tipo de mono</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
