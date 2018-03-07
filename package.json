@@ -1,0 +1,25 @@
+{
+  "name": "nodeheroku",
+  "version": "1.0.0",
+  "description": "proyecto garde baquedano",
+  "main": "servidor.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloGardeLecumberri/practica3GardeBaquedano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GonzaloGardeLecumberri/practica3GardeBaquedano/issues"
+  },
+  "homepage": "https://github.com/GonzaloGardeLecumberri/practica3GardeBaquedano#readme"
+}

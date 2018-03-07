@@ -5,6 +5,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var parseUrlencoded = bodyParser.urlencoded({extended: false});
 
+var port = process.env.PORT || 3000;
 var paginas = [
 {ruta: '/', fichero: true, dirFichero: '/index.html', nombre: 'Base', numVisit: 0, id: false, render: false, webService: false},
 {ruta: '/about', fichero: true, dirFichero: '/about.html', nombre: 'About', numVisit: 0, id: false, render: false, webService: false},
@@ -82,6 +83,6 @@ app.post('/formulario', parseUrlencoded, function(request, response){
 
 });
 
-app.listen(8080, function (argument) {
+app.listen(port, function (argument) {
 	console.log('Escuchando en el puerto 8080');
 });
